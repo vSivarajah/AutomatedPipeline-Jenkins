@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Build') { 
             steps { 
-                println 'building...' 
+                println 'building an artifact' 
             }
         }
         stage('Test'){
